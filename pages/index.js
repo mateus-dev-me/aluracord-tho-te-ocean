@@ -140,7 +140,7 @@ export default function PaginaInicial() {
                   borderRadius: '50%',
                   marginBottom: '16px',
                 }}
-                src={`https://github.com/${username}.png`}
+                src={username != '' ? `https://github.com/${username}.png` : `https://yorktonrentals.com/wp-content/uploads/2017/06/usericon.png`} 
               />
               <Text
                 variant="body4"
