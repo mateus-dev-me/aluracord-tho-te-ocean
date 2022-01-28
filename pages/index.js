@@ -4,6 +4,7 @@ import { useRouter } from "next/router"
 import appConfig from "../config.json"
 
 
+
 function Titulo(props) {
     const Tag = props.tag || "h1"
     console.log(props)
@@ -60,7 +61,7 @@ export default function PaginaInicial() {
               onSubmit = {function (infosDoEvento){
                   infosDoEvento.preventDefault()
                   console.log('Alguem submeteu o form')
-                  roteamento.push('/chat')
+                  roteamento.push(`/chat?username=${username}`)
                   //window.location.href = "/chat"
               }}
               styleSheet={{
