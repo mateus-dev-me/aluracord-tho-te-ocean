@@ -25,4 +25,6 @@ As tecnologias usadas foram:
 
 Acesse a página: [**Aluracord-tho-te-ocean**](https://aluracord-tho-te-ocean.vercel.app)
 
-<img src="./readme-files/project-image.png" width="720px"/>
+<img src="./img/chat-1.png" width="720px"/>
+<img src="./img/chat-2.png" width="720px"/>
+<img src="./img/chat-3.png" width="720px"/>
